@@ -1,0 +1,11 @@
+program bad;
+
+
+begin
+
+   writeString('Hello world');
+   var i:integer;
+   i:= 1; 
+   i=i^i;
+
+end.

@@ -1,0 +1,43 @@
+(* 
+	Sample program 
+*)
+@defmacro s test
+program foo;
+
+
+
+procedure a(arg1,arg2:integer; arg3,arg4:array of char);
+	procedure c();
+	begin 
+		(* no dummy lines *)
+	end;
+	var a:integer;
+	begin 
+		goto l;
+		if arg1=5 then 
+			arg2 := 2;
+		while arg3<3 and (arg4 mod 2=1)  do 
+		begin
+			writeInteger(s);
+			arg2 := 2
+		end	
+
+	end;
+
+
+	
+
+   begin
+	goto l;
+	if a=5 then k := 2;
+	while a<3 and (b mod 2=1)  do 
+	  begin
+		writeInteger(A);
+		b := 2
+	  end;
+  	writeString('Hello world');
+	writeString('\n');
+	result := 5
+
+	
+   end.
